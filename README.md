@@ -1,0 +1,2 @@
+# tdict
+Online Terminal  Dictionary
