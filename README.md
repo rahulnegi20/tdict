@@ -21,5 +21,5 @@ you can search for synonyms and example too!
 
 This script uses unofficial Google-Dictionary api (https://github.com/meetDeveloper/googleDictionaryAPI)
 
-There are still many things to be improved in this script, open for contributions!, issues and feature requests!
+Open for improvements/contributions!, issues and feature requests!
 
