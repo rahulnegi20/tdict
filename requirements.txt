@@ -1,0 +1,16 @@
+# I will asume your system have already python3 installed 
+# FOR LINUX :
+pip install urllib #its default in python3 but in-case of exceptions!
+
+### In order to run the script from terminal (anywhere) you need to write aa shell script which will invoke the python script. 
+### The point is, it will be accessible from anywhere irrespective of the directory in which the terminal is. (dont' worry i am providing the code)
+
+"""
+#!/bin/bash
+word="$1"
+export word
+python /home/vishaag/hacks/bash_scripts/terminal_dictionary.py "word"
+"""
+# save this bash script with a name let's say tdict (no extension required)
+# put this file in your .bashrc file which is hidden noramlly (Ctrl + H) to unhide the hidden files or vice-versa.
+# now 
