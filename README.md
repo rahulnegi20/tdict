@@ -13,8 +13,7 @@ you can search for synonyms and example too!
 ### Basic Requirements 
 
 *  python3
-*  pip
-*  urllib (check requirements.txt for detailed explaination)
+(check requirements.txt for detailed explaination)
 
 
 ## Development
