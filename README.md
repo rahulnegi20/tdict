@@ -1,4 +1,4 @@
-# Terminal Dictionary (online)
+# Terminal Google Dictionary (online)
 
 ### Too Geeky(Lazy) to go (google/bing) meaning of the word?
 Well, then this is the perfect script for you!
