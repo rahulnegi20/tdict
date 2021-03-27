@@ -4,6 +4,10 @@
 Well, then this is the perfect script for you!
 
 ## How to use?
+
+Download or clone this repository (https://github.com/rahulnegi20/tdict.git)
+and then check requirements.txt i have mentioned the procedure with steps.
+
 Just type the word and get the meaning of the word in your terminal.
 you can search for synonyms and example too!
 
