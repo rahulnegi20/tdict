@@ -21,6 +21,20 @@ you can search for synonyms and example too!
 (check requirements.txt for detailed explaination)
 
 
+### Linux 
+pip install urllib #its default in python3 but in-case of exceptions!
+
+### In order to run the script from terminal (anywhere)
+
+
+>you need to put the file tdict in your .bashrc file which is hidden by default, (Ctrl + H) to unhide the hidden files or vice-versa. now you need to edit that .bashrc file using any text editor and add this line on top
+
+`PATH="$PATH:<path-to-dict>"`
+for example , in my case it is (/home/rahulnegi/projects/scripts/dict.
+
+#if you still have any doubt realted to installation ping me on my socials availabe at my github profile!
+
+
 ## Development
 
 This script uses unofficial Google-Dictionary api (https://github.com/meetDeveloper/googleDictionaryAPI)
