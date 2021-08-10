@@ -28,7 +28,8 @@ you can search for synonyms and example too!
 >you need to put the file tdict in your .bashrc file which is hidden by default, (Ctrl + H) to unhide the hidden files or vice-versa. now you need to edit that .bashrc file using any text editor and add this line on top
 
 `PATH="$PATH:<path-to-dict-folder>"`
-for example , in my case it is (/home/rahulnegi/projects/scripts/dict).
+for example , in my case it is <br>
+(/home/rahulnegi/projects/scripts/dict).
 
 
 ### For Windows 
