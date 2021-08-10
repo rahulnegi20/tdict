@@ -3,6 +3,9 @@
 ### Too Geeky(Lazy) to go (google/bing) meaning of the word?
 Well, then this is the perfect script for you!
 
+## Preview
+![t-dict](https://user-images.githubusercontent.com/36270407/128837743-5c76d4fd-a3eb-4cc4-95ab-6f7dab7c2415.png)
+
 ## How to use?
 
 Download or clone this repository (https://github.com/rahulnegi20/tdict.git)
