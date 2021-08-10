@@ -40,5 +40,11 @@ Yet to be updated...
 
 This script uses unofficial Google-Dictionary api (https://github.com/meetDeveloper/googleDictionaryAPI)
 
-Open for improvements/contributions!, issues and feature requests!
+## Open for improvements/contributions!, issues and feature requests!
 
+## I could use some help over :
+
+- Adding steps on README.md to use the script globally(from anylocation) in Windows.
+- Better Text Formatitng and design of the output.
+
+Thanks : ) 
