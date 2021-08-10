@@ -22,7 +22,7 @@ you can search for synonyms and example too!
 
 ### For Linux 
 
-#### In order to run the script from terminal (anywhere)
+#### In order to run the script from terminal (anylocation)
 
 
 >you need to provide path to tdict in your .bashrc file which is hidden by default, (Ctrl + H) to unhide the hidden files or vice-versa. now you need to edit that .bashrc file using any text editor and add this line on top
@@ -44,7 +44,7 @@ This script uses unofficial Google-Dictionary api (https://github.com/meetDevelo
 
 ## I could use some help over :
 
-- Adding steps on README.md to use the script globally(from anylocation) in Windows.
+- Adding steps on README.md to use the script globally(from any location) in Windows.
 - Better Text Formatitng and design of the output.
 
 Thanks : ) 
