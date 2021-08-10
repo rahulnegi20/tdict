@@ -3,7 +3,7 @@
 ### Too Geeky(Lazy) to go (google/bing) meaning of the word?
 Well, then this is the perfect script for you!
 
-## Preview
+## Example
 ![t-dict](https://user-images.githubusercontent.com/36270407/128837743-5c76d4fd-a3eb-4cc4-95ab-6f7dab7c2415.png)
 
 ## How to use?
@@ -14,9 +14,7 @@ and then check requirements.txt i have mentioned the procedure with steps.
 Just type the word and get the meaning of the word in your terminal.
 you can search for synonyms and example too!
 
-#### Example :
 
-![Screenshot_20210327_210020](https://user-images.githubusercontent.com/36270407/112725815-12249b80-8f40-11eb-9227-b1c4bc0acdbd.png)
 ### Basic Requirements 
 
 *  python3
