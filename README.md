@@ -45,6 +45,6 @@ This script uses unofficial Google-Dictionary api (https://github.com/meetDevelo
 ## I could use some help over :
 
 - Adding steps on README.md to use the script globally(from any location) in Windows.
-- Better Text Formatitng and design of the output.
+- Better Text Formatting and design of the output.
 
 Thanks : ) 
