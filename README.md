@@ -42,7 +42,9 @@ This script uses unofficial Google-Dictionary api (https://github.com/meetDevelo
 
 ## Open for improvements/contributions!, issues and feature requests!
 
-## I could use some help over :
+# Hacktoberfest2021
+
+## I could use some help over : 
 
 - Adding steps on README.md to use the script globally(from any location) in Windows.
 - Better Text Formatting and design of the output.
