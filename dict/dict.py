@@ -1,12 +1,24 @@
 import os
 import sys
 import urllib.request, urllib.parse, urllib.error
-import json	 
-print('++++++++++Terminal Based google-dictionary++++++++++\n')
+import json
+
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+print(bcolors.OKBLUE + "++++++Terminal Based google-dictionary++++++++++\n" + bcolors.ENDC)
 title=os.environ["word"]
 flag = 0
-print('\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\START\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \n')
-print ("Word: ",title )
+print(bcolors.OKGREEN + "\n\\\\\\\\\\\\\\\\\\\\\\\\START\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \n" + bcolors.ENDC)
+print ("Word: ", bcolors.BOLD + title + bcolors.ENDC )
 
 try :
     url = 'https://api.dictionaryapi.dev/api/v2/entries/en_US/'+title
@@ -27,8 +39,8 @@ def get_meaning(title):
     try :
 
         print('\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ MEANING of {} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \n'.format(title))
-        print(result[0]["meanings"][0]["definitions"][0]["definition"])
-        print('\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\END\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \n')
+        print(bcolors.UNDERLINE + result[0]["meanings"][0]["definitions"][0]["definition"] + bcolors.ENDC)
+        print(bcolors.OKGREEN + "\n\\\\\\\\\\\\\\\\\\\\\\\\\END\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \n" + bcolors.ENDC)
     
     except :
         print('!!Error!! Please Check the Spelling!', sys.exc_info()[0])
@@ -47,7 +59,7 @@ def get_synonyms(title):
 
         print('\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ SYNONYMS of {} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \n'.format(title))
         for x in range(3): 
-            print(result[0]["meanings"][0]["definitions"][0]["synonyms"][x])
+            print(bcolors.UNDERLINE + result[0]["meanings"][0]["definitions"][0]["synonyms"][x] + bcolors.ENDC)
 
     except :
         print('!!Error!! ', sys.exc_info()[0])
@@ -78,7 +90,7 @@ while flag == 0:
     print('-----------------------------------')
     print(' ``Press 1 to get synonyms`` ')
     print(' ``Press 2 to get an example `` ')
-    print(' ``Press 9 to quit ``')
+    print(bcolors.WARNING + ' ``Press 9 to quit``' + bcolors.ENDC)
     print('-----------------------------------')
     try :
         char = int(input())
@@ -93,5 +105,5 @@ while flag == 0:
             print('Wrong key pressed')  
     except :
         print('INCORRECT KEY', sys.exc_info()[0]) 
-        pass         
-    print('\n \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\END\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \n')   
+        pass
+    print(bcolors.OKGREEN + "\n \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\END\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \n" + bcolors.ENDC)
