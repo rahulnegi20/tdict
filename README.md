@@ -42,6 +42,8 @@ for example , in my case it is <br>
 
 - paste in path environment variable (see step 3 image)
 - paste in path of file (dict.py) in tdict.bat
+- ![image](https://user-images.githubusercontent.com/48027382/136050307-8f4c3df2-0863-4eb5-9fd8-659a11e6ddb7.png)
+
 
 #### 3.) Edit environment variable
 
