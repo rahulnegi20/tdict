@@ -20,7 +20,7 @@ you can search for synonyms and example too!
 
 * python3
 
-### For Linux
+## For Linux
 
 #### In order to run the script from terminal (anylocation)
 
@@ -30,26 +30,38 @@ you can search for synonyms and example too!
 for example , in my case it is <br>
 (/home/rahulnegi/projects/scripts/dict).
 
-### For Windows
 
-1.) Go to windows branch ,and clone the repo
+## For Windows
 
- <image >
+#### 1.) clone the repo
+``` git clone https://github.com/SineshX/tdict.git ```
 
-2.) Edit environment variable
+#### 2.) copy the path of project sub folder (dict)
+
+![image](https://user-images.githubusercontent.com/48027382/136045502-7865539d-9543-4457-adb2-b3de76a1517c.png)
+    - paste in path environment variable (see step 3 image)
+
+#### 3.) Edit environment variable
+
     - add python in environment variable (hope already added)
     - add project folder in environment variable
-      <image >
-    - check with command  (in cmd)
+![image](https://user-images.githubusercontent.com/48027382/136043016-6d7c4e01-d1df-4b2e-8c62-cad3f16e3215.png)
+
+#### 4.) check with command  (in cmd)
 ``` where.exe tdict ```
 > D:\Sinesh\Project\tdict\dict\tdict.bat
 
+#### 5.) Run the script anywhere from the terminal by just calling tdict
 
- 3.) Run the script anywhere from the terminal by just calling tdict
     - it can take word as commandline argumrnt 
-    <image >
+![image](https://user-images.githubusercontent.com/48027382/136046030-b3c71b00-00be-4a26-80db-538a4db97502.png)
+
     - if commandline argument is not given it will ask user for word to be searched 
-    <image >
+![image](https://user-images.githubusercontent.com/48027382/136046407-1aec9c88-82d7-49ca-a801-868363f1c0b7.png)
+
+###### explore other features :)
+
+
 
 
 ## Development
