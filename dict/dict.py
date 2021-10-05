@@ -15,7 +15,14 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 print(bcolors.OKBLUE + "++++++Terminal Based google-dictionary++++++++++\n" + bcolors.ENDC)
-title=os.environ["word"]
+
+
+# taking word from user / commandline 
+if len(sys.argv) != 2:
+    title = input(bcolors.OKBLUE + "\nPlease input word to search : " + bcolors.ENDC)
+else:
+    title = os.environ["word"]
+
 flag = 0
 print(bcolors.OKGREEN + "\n\\\\\\\\\\\\\\\\\\\\\\\\START\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \n" + bcolors.ENDC)
 print ("Word: ", bcolors.BOLD + title + bcolors.ENDC )
