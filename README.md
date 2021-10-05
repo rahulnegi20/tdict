@@ -37,10 +37,13 @@ for example , in my case it is <br>
  <image >
 
 2.) Edit environment variable
+    - add python in environment variable (hope already added)
+    - add project folder in environment variable
+      <image >
+    - check with command  (in cmd)
+``` where.exe tdict ```
+> D:\Sinesh\Project\tdict\dict\tdict.bat
 
- - add python in environment variable (hope already added)
- - add project folder in environment variable
- <image >
 
  3.) Run the script anywhere from the terminal by just calling tdict
     - it can take word as commandline argumrnt 

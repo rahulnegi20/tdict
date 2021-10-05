@@ -21,7 +21,7 @@ print(bcolors.OKBLUE + "++++++Terminal Based google-dictionary++++++++++\n" + bc
 if len(sys.argv) != 2:
     title = input(bcolors.OKBLUE + "\nPlease input word to search : " + bcolors.ENDC)
 else:
-    title = os.environ["word"]
+    title = sys.argv[1]
 
 flag = 0
 print(bcolors.OKGREEN + "\n\\\\\\\\\\\\\\\\\\\\\\\\START\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \n" + bcolors.ENDC)
