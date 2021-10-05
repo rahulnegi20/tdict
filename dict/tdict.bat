@@ -1,5 +1,5 @@
 @echo off
-:: note 1 - these must be should be added in environment variable : 
+:: note 1 - these must be added in environment variable : 
 ::        - python
 ::        - project folder (D:\Sinesh\Project\tdict)
 
