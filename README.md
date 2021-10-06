@@ -45,10 +45,10 @@ This script uses unofficial Google-Dictionary api (https://github.com/meetDevelo
 
 # Hacktoberfest2021
 
-## I could use some help over : 
+## Want to contribute? 
 
-- Adding steps on README.md to use the script globally(from any location) in Windows.
-- Better Text Formatting and design of the output. [here](https://github.com/rahulnegi20/tdict/issues/1)
+- Check in [issues](https://github.com/rahulnegi20/tdict/issues) if you can solve them.
+- Want to add a new feature? Traced a bug? Open an issue fork> work on it> Submit a PR! 
 
 
 # Contributors 
