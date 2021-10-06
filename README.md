@@ -52,9 +52,9 @@ This script uses unofficial Google-Dictionary api (https://github.com/meetDevelo
 
 
 # Contributors 
-[rahulnegi20](https://github.com/rahulnegi20)
-[0shuvo0](https://github.com/0shuvo0)
-[SineshX](https://github.com/SineshX)
+[rahulnegi20](https://github.com/rahulnegi20) <br>
+[0shuvo0](https://github.com/0shuvo0) <br>
+[SineshX](https://github.com/SineshX) <br>
 
 
 Thanks : ) to all the contributors, least it take is only a **star** to encourage us to keep going.
