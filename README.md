@@ -7,7 +7,13 @@ Well, then this is the perfect script for you!
 ![t-dict](https://user-images.githubusercontent.com/36270407/128837743-5c76d4fd-a3eb-4cc4-95ab-6f7dab7c2415.png)
 
 ## How to use?
+There are two seprate branches for [Linux](https://github.com/rahulnegi20/tdict/) and [Windows](https://github.com/rahulnegi20/tdict/tree/windows)
 
+## For Windows 
+Installing for Windows is described on this [branch](https://github.com/rahulnegi20/tdict/tree/windows).
+
+
+## For Linux 
 Download or clone this repository (https://github.com/rahulnegi20/tdict.git)
 and then check requirements.txt i have mentioned the procedure with steps.
 
@@ -18,9 +24,8 @@ you can search for synonyms and example too!
 ### Basic Requirements 
 
 *  python3
-
-
-### For Linux 
+*  urllib
+*  yachalks
 
 #### In order to run the script from terminal (anylocation)
 
@@ -30,10 +35,6 @@ you can search for synonyms and example too!
 `PATH="$PATH:<path-to-dict-folder>"`
 for example , in my case it is <br>
 (/home/rahulnegi/projects/scripts/dict).
-
-
-### For Windows 
-Yet to be updated...
 
 
 ## Development
@@ -49,4 +50,11 @@ This script uses unofficial Google-Dictionary api (https://github.com/meetDevelo
 - Adding steps on README.md to use the script globally(from any location) in Windows.
 - Better Text Formatting and design of the output. [here](https://github.com/rahulnegi20/tdict/issues/1)
 
-Thanks : ) 
+
+# Contributors 
+@rahulnegi20 
+@0shuvo0
+@SineshX 
+
+
+Thanks : ) to all the contributors, least it take is only a **star** to encourage us to keep going.
