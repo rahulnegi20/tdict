@@ -13,6 +13,7 @@ Dictonary('happy')
 >>> ------------------------------------
 >>> example: they tended to be grenade-happy
 ```
+![](demo.png)
 
 ## TO-DO
 - return print statement when user doesn't specify word and run the class empty
